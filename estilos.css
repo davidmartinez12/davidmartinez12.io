@@ -1,0 +1,245 @@
+body{
+	background:#EF0707;
+}
+h1{
+	color: #FE2E2E; 
+	font-family: Arial;
+	font-size: 50px;
+	text-align: center;
+}
+p{
+	color: #FE2E2E; 
+	font-family: Arial;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+table{
+	color: #FE2E2E; 
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	border: 2;
+	border-color: #641E16;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+tr{
+	color: #FE2E2E; 
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	background-color:#F8C471;
+	border-color: #641E16;
+	border-style: solid;
+}
+th{
+	color: #CB4335 ; 
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	border-color: #641E16;
+	border-style: solid;
+}
+td{
+	color: #7B241C; 
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	border-color: #641E16;
+	border-style: solid;
+}
+.sin{
+	border-style: transparent;
+	border:0;
+	background-color: transparent;
+}
+font{
+	color: #FE2E2E; 
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+.sen{
+	color: #A52A2A; 
+	font-family: Arial;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+.sun{
+	color: #F9EA35; 
+	font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+.tam{
+	width: 150;
+	height: 90;
+	position: relative;
+	right: 500px;
+}
+.tam1{
+	width: 140;
+	height: 140;
+}
+.tam2{
+	width: 200;
+	height: 200;
+}
+/*encabezados*/
+.div1{
+		background: linear-gradient(to bottom, #E67E22,#F39C12);
+		border: 5px solid #FFFFEFE;
+		border-radius: 30px;
+		margin-top: 0px;
+		margin-right:0px;
+		margin-bottom:10px;
+		margin-left:10px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+}
+/*lo marquee de la principal*/
+.div2{
+		background: #9D120E;
+		border: 5px solid #9D120E;
+		text-align: center;
+}
+/*botones que te redireccionan a las paginas*/
+.div3{
+		background: #3C3534;
+		border: 0px solid #3C3534;
+		text-align: center;
+		}
+/*los creditos de la parte inferior de las paginas*/
+.div4{
+		background: #5A5554;
+		border: 0px solid #5A5554;
+		text-align: center;
+		align-items:center;
+		display:flex;
+		justify-content:center;
+}
+/*para los parrafos de la pagina historia*/
+.div5{
+		background: #E67E22;
+		border: 5px solid #E67E22;
+		text-align: center;
+}
+/*para tabla de los productos*/
+.div6{
+		background: #9E1A00;
+		border: 5px solid #9E1A00;
+		text-align: center;
+}
+/*parala tabla de contacto*/
+.div7{
+		background: #832310;
+		border: 5px solid #832310;
+		text-align: center;
+}
+.div8{
+		background: white;
+		border: 5px solid #832310;
+		text-align: center;
+}
+/*para colocar los divs en los productos en cada uno xd*/
+.caja{
+	height: 300px;
+	width: 250px;
+	background: white;
+	border: 1px solid white;
+	margin: 5px;
+	color: black;
+	text-align: center;
+	font-family: arial;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.caja:hover{
+	/*agregar sombra xd*/
+	/*           x  y  radio  color*/
+	box-shadow: 0 0 10px orange;
+	transform: scale( 1.4);
+	
+}
+/*texto*/
+.caja-texto{
+	padding-bottom:5px;
+	padding-top:2px;
+	font-size:20px;
+	color:red;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:25px;
+}
+@font-face{
+	font-family:"mifuente";
+	src: url(PerfectJour.ttf);
+}
+
+#fuente-morning{
+	font-family:"mifuente";	
+}
+.div9{
+	background: #FFFEFE;
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div9:hover{
+	width:900px
+}
+.div10{
+	background: #6AE6FC;
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div10:hover{
+	width:900px
+}
+.div11{
+	background: #FFFEFE;
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div11:hover{
+	width:900px
+}
+.div12{
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+	background: #6AE6FC;
+}
+.div12:hover{
+	width:900px
+	
+}
+.contenedor{
+	display:flex
+}
